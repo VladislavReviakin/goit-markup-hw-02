@@ -15,20 +15,20 @@
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--secondary-color)
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   /* identical to box height, or 117% */
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+  color: #4d5ae5;
 }
 
 .list {
@@ -46,7 +46,18 @@
 
 body {
   font-family: var(--main-font-family);
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.menu-item {
+  line-height: 1,5;
   color: var(--accent-color);
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
 }
 
 .menu-link {
@@ -54,6 +65,16 @@ body {
   font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+}
+
+.contact-links {
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.contact-links:hover,
+.contact-links:focus {
+  color: #404bbf;
 }
 
 .contact {
@@ -81,6 +102,10 @@ body {
 .modal-open-btn {
   color: #ffffff;
   background-color: #4d5ae5;
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04;
 }
 
 .theme {
@@ -119,4 +144,32 @@ body {
 .filter {
     background-color: #f4f4fd;
     color: #4D5AE5;
+}
+
+.first-header {
+  line-height: 1.07;
+}
+
+.thirde-header {
+  line-height: 1,11;
+}
+
+.colective {
+  background-color: #f4f4fd;
+}
+
+.lust-header {
+  line-height: 1.11;
+}
+
+.list-item-two {
+  background-color: #ffffff;
+}
+
+.end {
+  background-color: var(--accent-color);
+}
+
+.end-span {
+  color: #f4f4fd;
 }
