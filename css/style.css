@@ -6,16 +6,16 @@
 }
 
 .logo-span {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    /* identical to box height, or 117% */
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--secondary-color)
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 .logo {
@@ -51,7 +51,7 @@ body {
 }
 
 .menu-item {
-  line-height: 1,5;
+  line-height: 1, 5;
   color: var(--accent-color);
 }
 
@@ -103,9 +103,9 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
   font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04;
 }
 
 .theme {
@@ -142,8 +142,8 @@ body {
 }
 
 .filter {
-    background-color: #f4f4fd;
-    color: #4D5AE5;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .first-header {
@@ -151,7 +151,7 @@ body {
 }
 
 .thirde-header {
-  line-height: 1,11;
+  line-height: 1, 11;
 }
 
 .colective {
